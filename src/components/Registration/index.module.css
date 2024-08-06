@@ -1,0 +1,86 @@
+
+  .r-main-section {
+    display: flex;
+    align-items: center;
+    height: 100vh;
+  }
+
+  /* -----registration -------*/
+  .r-app {
+    width: 390px;
+    /* height: 570px; */
+    margin: 2em auto;
+    border-radius: 5px;
+    padding: 1em;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 6px 31px -2px rgba(0, 0, 0, 0.3);
+  }
+
+  .r-bg {
+    width: 400px;
+    height: 582px;
+    background: var(--blue100);
+    position: absolute;
+    top: -5em;
+    left: -17px;
+    right: 0;
+    margin: auto;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    clip-path: ellipse(84% 46% at 61% 46%);
+  }
+
+
+  .r-label-float {
+    position: relative;
+    padding-top: 13px;
+  }
+
+  .r-label-float input {
+    font-size: 13px;
+    color: var(--white100);
+    outline: none;
+    border: 1px solid var(--white100);
+    padding: 13px 20px;
+    width: 100%;
+    border-radius: 20px;
+    position: relative;
+    background: transparent;
+  }
+
+  .r-label-float input:focus {
+    
+    border: 1px solid var(--gray100);
+  }
+
+  .r-label-float input::placeholder {
+    color: transparent;
+  }
+
+  .r-label-float label {
+    pointer-events: none;
+    position: absolute;
+    top: calc(50% - 8px);
+    left: 15px;
+    transition: all 0.1s linear;
+    -webkit-transition: all 0.1s linear;
+    -moz-transition: all 0.1s linear;
+    background: var(--blue100);
+    padding: 5px;
+    box-sizing: border-box;
+    color: var(--white100);
+    font-size: 13px;
+  }
+
+  .r-label-float input:required:invalid+label:before {
+    content: '*';
+  }
+
+  .r-label-float input:focus+label,
+  .r-label-float input:not(:placeholder-shown)+label {
+    font-size: 13px;
+    top: 0;
+    color: var(--gray100);
+  }

@@ -1,0 +1,105 @@
+.layout-style {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  width: 100%;
+}
+.form-style {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.card-flex {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+/* .btn-flex {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+} */
+.section-btn {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+}
+.button-icon {
+  display: flex !important;
+  align-items: center;
+  gap: 5px;
+  margin-left: 10px;
+  color: white;
+}
+
+.optio-flex {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+  align-items: center;
+  gap: 10px;
+}
+.correct-ans {
+  background: #f5f4f4;
+  padding: 0px 10px;
+  border-radius: 6px;
+}
+.icon-style {
+  display: flex;
+  gap: 10px;
+}
+.addoption-icon {
+  display: flex;
+  background: var(--green100);
+  border-radius: 4px;
+  color: var(--white100);
+  cursor: pointer;
+  height: 37px;
+  width: 37px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.removeoption-icon {
+  display: flex;
+  background: var(--red100);
+  border-radius: 4px;
+  color: var(--white100);
+  cursor: pointer;
+  height: 37px;
+  width: 37px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.blnckblock {
+  padding: 18px;
+}
+
+.checkbox-required {
+  height: 37px;
+  display: flex;
+  align-items: center;
+}
+
+.flex-icon-1 {
+  display: flex;
+  gap: 10px;
+  color: #ffffff;
+  padding-right: 1rem;
+}
+.btn-end {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+}
+.back-img {
+  font-size: 20px;
+  cursor: pointer;
+}
+.save-close {
+  display: flex;
+  justify-content: flex-end;
+  gap: 6px;
+}

@@ -1,0 +1,14 @@
+/* @import "../../../styles/core.css"; */
+
+.inst-section {
+  background: #b4d656;
+  padding: 25px;
+  border-radius: 6px;
+  border: 2px solid #b9b9b9;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 400;
+}
+.instruction {
+  margin-left: 14px;
+}

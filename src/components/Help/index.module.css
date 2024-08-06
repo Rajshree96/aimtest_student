@@ -1,0 +1,27 @@
+/* @import "../../../styles/core.css"; */
+.layout-style {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  width: 100%;
+}
+.form-style {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.flex-style {
+  flex-grow: 1;
+  width: 100%;
+}
+.section-btn {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+}
+
+.label-style {
+  font-size: 14px;
+  color: var(--black200);
+  font-weight: 500;
+}
